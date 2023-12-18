@@ -1,0 +1,22 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1;
+  font-weight: 400;
+
+}
+
+.hid-scrollbar{
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  &::-webkit-scrollbar {
+      display: none;
+    }
+  
+}
